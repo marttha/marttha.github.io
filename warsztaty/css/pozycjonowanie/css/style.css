@@ -1,0 +1,23 @@
+#green {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+#blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+#red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
