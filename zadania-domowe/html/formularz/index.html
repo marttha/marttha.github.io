@@ -7,17 +7,17 @@
 <body>
      <form action="https://formspree.io/kapita.mk@gmail.com"
       method="POST">
-       <label >Imię:</label>
-            <div><input type="text" name="imie"></div>
+       <label for="imie">Imię:</label>
+            <div><input type="text" name="imie" id="imie"></div>
        
-        <label >Nazwisko:</label>
-            <div><input type="text" name="name"></div>
+        <label for="nazwisko" >Nazwisko:</label>
+            <div><input type="text" name="name" id="nazwisko"></div>
        
         <label for="email">Email</label>
             <div><input type="email" name="_replyto" id="email"></div>
        
-        <label>Numer telefonu:</label>
-            <div><input type="tel" name="telefon"></div>
+        <label for="telefon">Numer telefonu:</label>
+            <div><input type="tel" name="telefon" id="telefon"></div>
             
         <label>Wybór miasta:</label>
             <div><select name="select">
@@ -26,9 +26,9 @@
                 <option value="gdansk">Gdańsk</option>
             </select></div>
             
-        <label>Podaj płeć</label>
-            <div><input type="radio" name="plec"  value="kobieta">kobieta</div>
-            <div><input type="radio" name="plec" value="mezczyzna">mężczyzna</div>
+        <label>Podaj płeć</label> 
+            <div><input type="radio" name="femal"  value="kobieta">kobieta</div>
+            <div><input type="radio" name="male" value="mezczyzna">mężczyzna</div>
 
        <label for="zgoda">Zgoda na dane osobowe</label>
              <div><input type="checkbox" name="zgoda" id="zgoda"></div>
