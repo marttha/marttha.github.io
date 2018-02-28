@@ -19,24 +19,32 @@
         <label for="telefon">Numer telefonu:</label>
             <div><input type="tel" name="telefon" id="telefon"></div>
             
-        <label>Wybór miasta:</label>
-            <div><select name="select">
+        <label for="miasto">Wybór miasta:</label>
+            <div>
+               <select name="select" id="miasto">
                 <option value="krakow">Kraków</option>
                 <option value="warszawa">Warszawa</option>
                 <option value="gdansk">Gdańsk</option>
-            </select></div>
+            </select>
+            </div>
             
         <label for="gender">Płeć</label> 
-            <div><input type="radio" name="gender"  value="female">kobieta</div>
-            <div><input type="radio" name="gender" value="male">mężczyzna</div>
+            <div>
+                <input type="radio" name="gender"  value="female" id="kobieta"><label for="kobieta">kobieta</label></div>
+            <div>
+            <input type="radio" name="gender" value="male id="mezczyzna><label for="mezczyzna">mężczyzna</label></div>
 
        <label for="zgoda">Zgoda na dane osobowe</label>
              <div><input type="checkbox" name="zgoda" id="zgoda"></div>
              
         <label for="message">Wiadomość:</label>
-            <div> <textarea maxlength="100" rows="10" name="message"></textarea></div>
+            <div> 
+                <textarea maxlength="100" rows="10" name="message" id="message"></textarea>
+            </div>
             
-            <div><input type="submit" value="Send"></div>
+            <div>
+                <input type="submit" value="Send">
+            </div>
     </form>
 </body>
 </html>
