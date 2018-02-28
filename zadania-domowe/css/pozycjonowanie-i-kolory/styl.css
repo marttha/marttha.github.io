@@ -1,65 +1,77 @@
-#gray{
-    width: 600px;
-    height: 600px;
-    background-color: gray;
-    position: absolute;
-}
-#red{
+.square1{
     width: 200px;
     height: 200px;
     background-color: red;
-    position: fixed;
-    left: 0;
-    top:0;
-    
 }
-#blue{
+#circle1{
+    border-radius: 100%;
+    background-color: lightpink;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.square2{
     width: 200px;
     height: 200px;
     background-color: blue;
-    position: fixed;
-    left: 200px;
+    position: absolute;
     top: 0px;
-
+    left: 200px;
 }
-#green{
+.square3{
     width: 200px;
     height: 200px;
     background-color: green;
-    position: fixed;
-    left: 400px;
+    position: absolute;
     top: 0px;
+    left: 400px;
 }
-#yellow{
+.square4{
     width: 200px;
     height: 200px;
     background-color: yellow;
     position: absolute;
-    left: 0;  
-    top: 50;
+    bottom: 150px;
+    left: 0px;
 }
-#darkviolet{
+.square5{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 200px;
+    
+}
+.square6{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    bottom: 150px;
+    left: 400px;
+}
+.square7{
     width: 200px;
     height: 200px;
     background-color: darkviolet;
     position: absolute;
-    right: 200px;
-    bottom: 0px;
+    top: 400px;
+    left: 0px;
 }
-
-#black{
+.square8{
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: gray;
+    position: absolute;
+    top: 400px;
+    left: 200px;
 }
-#grey{
+.square9{
     width: 200px;
     height: 200px;
-    background-color: grey;
-}
-#pink{
-    width: 200px;
-    height: 200px;
-    background-color: pink;
-    
+    background-color: lightpink;
+    position: absolute;
+    top: 400px;
+    left: 400px;
 }
