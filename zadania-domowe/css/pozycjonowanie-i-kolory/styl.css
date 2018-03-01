@@ -1,77 +1,121 @@
-.square1{
+.kwadrat{
     width: 200px;
     height: 200px;
-    background-color: red;
 }
-#circle1{
-    border-radius: 100%;
-    background-color: lightpink;
+.kwadrat1{
+    background-color: red;
     position: absolute;
     top: 0px;
     left: 0px;
 }
-.square2{
-    width: 200px;
-    height: 200px;
+#circle1{
+    border-radius: 50px;
+    border: 50px solid #ffb6c1;
+    position: absolute;
+    top: 50px;
+    left:50px;
+}
+.kwadrat2{
     background-color: blue;
     position: absolute;
     top: 0px;
     left: 200px;
 }
-.square3{
-    width: 200px;
-    height: 200px;
+#circle2{
+    border-radius: 50px;
+    border: 50px solid #a9a9a9;
+    position: absolute;
+    top: 50px;
+    left:250px; 
+}
+.kwadrat3{
     background-color: green;
     position: absolute;
     top: 0px;
     left: 400px;
 }
-.square4{
-    width: 200px;
-    height: 200px;
+#circle3{
+    border-radius: 50px;
+    border: 50px solid #9400d3;
+    position: absolute;
+    top: 50px;
+    left:450px;
+}
+.kwadrat4{
     background-color: yellow;
     position: absolute;
-    bottom: 150px;
+    top: 200px;
     left: 0px;
 }
-.square5{
-    width: 200px;
-    height: 200px;
+#circle4{
+    border-radius: 50px;
+    border: 50px solid #008000;
+    position: absolute;
+    top: 250px;
+    left:50px;
+}
+.kwadrat5{
     background-color: black;
     position: absolute;
-    bottom: 150px;
+    top: 200px;
     left: 200px;
-    
 }
-.square6{
-    width: 200px;
-    height: 200px;
+#circle5{
+    border-radius: 50px;
+    border: 50px solid #ff0000;
+    position: absolute;
+    top: 250px;
+    left:250px;
+}
+.kwadrat6{
     background-color: orange;
     position: absolute;
-    bottom: 150px;
+    top: 200px;
     left: 400px;
 }
-.square7{
-    width: 200px;
-    height: 200px;
+#circle6{
+    border-radius: 50px;
+    border: 50px solid #0000ff;
+    position: absolute;
+    top: 250px;
+    left:450px;
+}
+.kwadrat7{
     background-color: darkviolet;
     position: absolute;
     top: 400px;
     left: 0px;
 }
-.square8{
-    width: 200px;
-    height: 200px;
+#circle7{
+    border-radius: 50px;
+    border: 50px solid #ffa500;
+    position: absolute;
+    top: 450px;
+    left:50px;
+}
+.kwadrat8{
     background-color: gray;
     position: absolute;
     top: 400px;
     left: 200px;
 }
-.square9{
-    width: 200px;
-    height: 200px;
+#circle8{
+    border-radius: 50px;
+    border: 50px solid #ffff00;
+    position: absolute;
+    top: 450px;
+    left:250px;
+}
+.kwadrat9{
     background-color: lightpink;
     position: absolute;
     top: 400px;
     left: 400px;
+}
+#circle9{
+    border-radius: 50px;
+    border: 50px solid #000000;
+    position: absolute;
+    top: 450px;
+    left:450px;
 }
