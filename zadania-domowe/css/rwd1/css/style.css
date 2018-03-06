@@ -1,0 +1,26 @@
+/*General*/
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Verdana', sans-serif;
+    color: #fff;
+    text-align: left;
+}
+
+header{
+    padding:0 100px 600px;
+    width: 100%;
+}
+#main-header{
+    background-image: url(../img/man-1.jpg);
+    background-size: cover;
+}
+#main-header .header-content{
+    padding-top: 400px;
+}
+
+    
+    

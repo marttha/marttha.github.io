@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Formularz dla uczestnika szkolenia</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-     <form action="https://formspree.io/kapita.mk@gmail.com"
-      method="POST">
-       <label for="imie">Imię:</label>
-            <div><input type="text" name="imie" id="imie"></div>
-       
-        <label for="nazwisko" >Nazwisko:</label>
-            <div><input type="text" name="name" id="nazwisko"></div>
-       
-        <label for="email">Email</label>
-            <div><input type="email" name="_replyto" id="email"></div>
-       
+    <form action="https://formspree.io/kapita.mk@gmail.com" method="POST">
+        <label for="imie">Imię:</label>
+        <input type="text" name="imie" id="imie">
+
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" name="name" id="nazwisko">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="_replyto" id="email">
+
         <label for="telefon">Numer telefonu:</label>
-            <div><input type="tel" name="telefon" id="telefon"></div>
-            
+        <input type="tel" name="telefon" id="telefon">
+
         <label for="miasto">Wybór miasta:</label>
-            <div>
-               <select name="select" id="miasto">
+
+        <select name="select" id="miasto">
                 <option value="krakow">Kraków</option>
                 <option value="warszawa">Warszawa</option>
                 <option value="gdansk">Gdańsk</option>
             </select>
-            </div>
-            
-        <label for="gender">Płeć</label> 
-            <div>
-                <input type="radio" name="gender"  value="female" id="kobieta"><label for="kobieta">kobieta</label></div>
-            <div>
-            <input type="radio" name="gender" value="male id="mezczyzna><label for="mezczyzna">mężczyzna</label></div>
 
-       <label for="zgoda">Zgoda na dane osobowe</label>
-             <div><input type="checkbox" name="zgoda" id="zgoda"></div>
-             
+
+        <label for="gender">Płeć</label>
+        <div>
+        <input type="radio" name="gender" value="female" id="kobieta"><label for="kobieta">Kobieta</label>
+        </div>
+        <div>
+        <input type="radio" name="gender" value="male id=" mezczyzna><label for="mezczyzna">Mężczyzna</label>
+        </div>
+        
+
         <label for="message">Wiadomość:</label>
-            <div> 
-                <textarea maxlength="100" rows="10" name="message" id="message"></textarea>
-            </div>
-            
-            <div>
-                <input type="submit" value="Send">
-            </div>
+
+        <textarea maxlength="100" rows="10" name="message" id="message"></textarea>
+        <div><input type="checkbox" name="zgoda" id="zgoda">
+        <label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        </div>
+        <br>
+        <input type="submit" value="Send">
+
     </form>
 </body>
+
 </html>

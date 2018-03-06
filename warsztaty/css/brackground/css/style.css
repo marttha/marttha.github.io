@@ -1,0 +1,9 @@
+div{
+    background: red url(../img/truskawka.jpg) repeat-x top center fixed;
+}
+/*background-color:red;
+background-image:url(../img/truskawka.jpg);
+background-repet: no-repeat;
+background-position:top center;
+background-attachment: fixed:
+*/

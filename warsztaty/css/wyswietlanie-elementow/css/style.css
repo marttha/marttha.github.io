@@ -1,0 +1,21 @@
+li {
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+#zielen{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#zielen2{
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+p:last-child{
+    clear: both;
+}

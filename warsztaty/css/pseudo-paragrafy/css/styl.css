@@ -1,0 +1,23 @@
+
+
+#p3:target{
+    color: aqua;
+}
+a{
+    color: green;
+}
+a:visited{
+    color: chocolate;
+}
+a:link{
+    color: cornflowerblue;
+}
+.clients-list div:nth-child(odd){
+    background-color: pink;
+}
+.clients-list div:nth-child(even){
+    background-color: green;
+}
+.clients-list div:nth-child(5n+4){
+    background-color: blue;
+}

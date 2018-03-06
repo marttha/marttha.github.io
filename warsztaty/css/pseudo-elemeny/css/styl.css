@@ -1,0 +1,17 @@
+#p1::before{
+    content: "przed elementem ";
+    color: red;
+}
+#p2::after{
+    content: " na końcu";
+    color: yellow;    
+}
+#p3::first-letter{
+    content: " pierwsza litera paragrafu";
+    color: green;   
+}
+#p4::first-line{
+    content: "pierwsza linijka";
+    color: aqua;
+        
+}
