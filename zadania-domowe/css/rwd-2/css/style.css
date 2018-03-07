@@ -1,0 +1,53 @@
+/*General*/
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Verdana', sans-serif;
+    
+}
+/*End General*/
+/*Header1*/
+#main-header1{
+    background-image: url(../img/man-1.jpg);
+    background-size:cover;
+    background-position: top center;
+    margin-bottom: 10px;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+#main-header1 .header-content{
+    text-align: left;
+    padding: 40vh;
+}
+/*Ena Header1*/
+/*Header2*/
+#main-header2{
+    background-image: url(../img/man-2.jpg);
+    background-size:contain;
+    background-position: top center;
+    margin-bottom: 10px;
+   background-repeat: no-repeat;
+    color: #fff;
+    
+}
+#main-header2 .header-content{
+    text-align: right;
+    padding: 40vh;
+}
+/*End Header*/
+/*Gallery*/
+#gallery{
+    width: 1170px;
+    text-align: center;
+    color: black;
+}
+figure img{
+    width: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*End Gallery*/
