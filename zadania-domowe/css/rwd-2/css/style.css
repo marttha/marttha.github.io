@@ -6,6 +6,10 @@
 }
 body{
     font-family: 'Verdana', sans-serif;
+}
+#gallery{
+    text-align: center;
+    width: 1170px;
     
 }
 /*End General*/
@@ -31,6 +35,7 @@ body{
     background-position: top center;
     margin-bottom: 10px;
    background-repeat: no-repeat;
+    width: 70%;
     color: #fff;
     
 }
@@ -39,15 +44,3 @@ body{
     padding: 40vh;
 }
 /*End Header*/
-/*Gallery*/
-#gallery{
-    width: 1170px;
-    text-align: center;
-    color: black;
-}
-figure img{
-    width: 40%;
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*End Gallery*/
