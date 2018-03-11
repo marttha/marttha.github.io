@@ -25,3 +25,9 @@ var x = obliczPodatek(2500, 30);
 var z = obliczPodatek(25000, 23);
 
 console.log(w,x,z);
+
+function wyswietlWynik(wartosc){
+    document.write(wartosc);
+}
+var obliczenia = obliczPodatek(1000, 10);
+wyswietlWynik(obliczenia);

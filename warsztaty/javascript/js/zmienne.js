@@ -5,6 +5,6 @@ console.log(imie);
 
 imie ="Marta";
 
-//łączeni zmiennych
+łączeni zmiennych
 var laczenieTekstu = "Moje imie to: " + imie + " a nazwisko to: " + nazwisko;
 console.log(laczenieTekstu);
