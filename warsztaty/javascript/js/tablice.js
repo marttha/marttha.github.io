@@ -53,8 +53,10 @@ var elementyTablicyString = imiona.join(",----,");
 //console.log(imiona.indexOf("Czesław"));
 
 
-imiona.slice(1,2);
-console.log(imiona);
+//imiona.splice(1,2);
+//console.log(imiona);
+
+
 
 
 
