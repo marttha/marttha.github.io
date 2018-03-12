@@ -1,15 +1,16 @@
-@media(max-width:1170px) {
-    #main-header1{
-        width: 100%;
+
+@media(max-width:992px){
+    
+    #main_header{
+        width: 70%;
+        padding: 0px;
+    }
+    .bg_container h3, h1{
+        text-align: right;
+    }
+    #main_header .bg_container{
+        background-image: url(../img/man-2.jpg);
     }
 }
-@media (max-width:1170px)(min-width:992px){
-    #main-header2{
-        width: 100%;
-    }
-}
-@media (min-width:992px){
-    figura{
-        width: 100%;
-    }
-}
+
+

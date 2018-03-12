@@ -1,46 +1,24 @@
-/*General*/
-*{
+* {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+#main_header {
     font-family: 'Verdana', sans-serif;
+    color: #fff;
+    border: 1px solid #fff;
 }
-#gallery{
-    text-align: center;
-    width: 1170px;
-    
+
+.bg_container h3{
+    padding: 80px 25px;
+    }
+.bg_container h1{
+    padding: 80px 25px;
 }
-/*End General*/
-/*Header1*/
-#main-header1{
+#main_header .bg_container {
+    height:1170px;
     background-image: url(../img/man-1.jpg);
-    background-size:cover;
-    background-position: top center;
-    margin-bottom: 10px;
-    width: 100%;
     background-repeat: no-repeat;
-    color: #fff;
-}
-#main-header1 .header-content{
-    text-align: left;
-    padding: 40vh;
-}
-/*Ena Header1*/
-/*Header2*/
-#main-header2{
-    background-image: url(../img/man-2.jpg);
-    background-size:contain;
-    background-position: top center;
-    margin-bottom: 10px;
-   background-repeat: no-repeat;
-    width: 70%;
-    color: #fff;
     
 }
-#main-header2 .header-content{
-    text-align: right;
-    padding: 40vh;
-}
-/*End Header*/
