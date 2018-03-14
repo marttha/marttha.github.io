@@ -6,19 +6,16 @@
 
 #main_header {
     font-family: 'Verdana', sans-serif;
-    color: #fff;
-    border: 1px solid #fff;
 }
 
-.bg_container h3{
-    padding: 80px 25px;
-    }
-.bg_container h1{
-    padding: 80px 25px;
+.header h3, h1{
+    padding: 50px;
+    color: #fff;
+   
 }
 #main_header .bg_container {
-    height:1170px;
+    height:100vh;
     background-image: url(../img/man-1.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
 }
