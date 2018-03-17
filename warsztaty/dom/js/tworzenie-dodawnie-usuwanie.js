@@ -12,7 +12,7 @@ var newElementContent = document.createTextNode("Tutaj tworzę treść paragrafu
 //wstawiam nowoutworzony tekst do nowoutworzonego paragrafu
 newElement.appendChild(newElementContent);
 
-//dodaje do paragrafu atrybut class='textpar'
+//dodaje do paragrafu atrybut class='textpar' 
 newElement.setAttribute('class', 'textpar');
 //console.log(newElement);
 
