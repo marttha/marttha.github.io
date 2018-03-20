@@ -1,8 +1,3 @@
-const arr = ['a', 'b', 'c'];
-
-arr.forEach(function(element) {
-    console.log(element);
-});
 
 var workForce = {
     "pracownicy":[
@@ -11,8 +6,15 @@ var workForce = {
         {"firstName": "Piotr", "lastName": "Żmuda"}
     ]
 };
-
 workForce.pracownicy.forEach(function(list){
   console.log(list.firstName + ' ' + list.lastName)
 });
+
+const arr = ['a', 'b', 'c'];
+
+arr.forEach(function(element) {
+    console.log(element);
+});
+
+
 
