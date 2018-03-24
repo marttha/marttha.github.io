@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="kalkulator">
+        <h1>Wprowadź dane</h1>
+        <div id="row">
+            <label for="wplata">Wpłata w PNL:</label>
+            <input type="number" value=0 id="wplata" min="100">
+        </div>
+        <div id="row">
+            <label for="okres-kapitalizacji">Częstotliwość kapitalizacji:</label>
+            <select id="okres-kapitalizacji">
+                <option value="12">Miesięcznie</option>
+                <option value="4">Kwartalnie</option>
+                <option value="1">Rocznie</option>
+            </select>
+        </div>
+        <div id="row">
+            <label for="ilosc-lat">Ilość lat:</label>
+            <input type="number" value=1 id="ilosc-lat" min="1">
+        </div>
+        <div id="row">
+            <label for="oprocentowanie">Stopa zwrotna w %</label>
+            <input type="number" value=0 id="oprocentowanie" min="0">
+        </div>
+        <div id="row">
+            <label for="podatek">Uwzględnij podatek Belki 19%</label>
+            <input type="checkbox" id="podatek">
+        </div>
+        <div id="row">
+            <button id="przycikOblicz" onclick="oblicz(event)">Oblicz</button>
+        </div>
+    </form>
+    <div id="wynik"></div>
+    <script src="js/funkcja-obliczen.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
