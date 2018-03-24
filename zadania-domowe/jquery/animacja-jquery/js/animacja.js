@@ -2,6 +2,7 @@
 var button = $("#animate");
 $('button').click(function(){
 $('div').animate({
+    backgroundColor:'blue',
         left: '200px',
         width: '100px',
         height: '100px'
