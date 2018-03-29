@@ -3,5 +3,13 @@ div {
     width: 200px;
     height: 200px;
     background-color: red;
+    text-align: inherit;
 }
-h2
+
+h2 {
+  font-size: 16px;
+  padding: 0;
+  color: white;
+  display: none;
+    text-align: center;
+}
