@@ -20,6 +20,7 @@
     #naglowek {
         color: #000;
         text-align: center;
+        position:static;
     }
     #main_header .bg_container {
         background-image: url(../img/man-1.jpg);    
