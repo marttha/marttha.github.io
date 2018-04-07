@@ -40,29 +40,29 @@ var jsonOsoby = {
 }
 
 
-//jsonOsoby.osoby.forEach(function( element, index){
-//    console.log( element);
-//});
-
-//
-//jsonOsoby.osoby.forEach(function( element, index){
-//    console.log( "Nazywam sie: " + element.imie + " " + element.nazwisko + " i mam" + element.oczy + " oczy");
-//});
+jsonOsoby.osoby.forEach(function( element, index){
+    console.log( element);
+});
 
 
-//console.log(jsonOsoby.osoby[0].imie);
+jsonOsoby.osoby.forEach(function( element, index){
+    console.log( "Nazywam sie: " + element.imie + " " + element.nazwisko + " i mam" + element.oczy + " oczy");
+});
+
+
+console.log(jsonOsoby.osoby[0].imie);
 
 
 
 //pętla po obiekcie for in
-var obiekt ={
-    imie: "Adam",
-    nazwisko: "Nowacki",
-    wzrost: 182,
-    oczy: "szare",
-}
-for( var property in obiekt){
-    console.log("Nazwa właściwości: " + property + "Wartość właściwości:" + obiekt[property]);
-}
+//var obiekt ={
+//    imie: "Adam",
+//    nazwisko: "Nowacki",
+//    wzrost: 182,
+//    oczy: "szare",
+//}
+//for( var property in obiekt){
+//    console.log("Nazwa właściwości: " + property + "Wartość właściwości:" + obiekt[property]);
+//}
 
 

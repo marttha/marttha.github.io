@@ -1,44 +1,105 @@
-function Fibonaccie(nElem){
-  
-  var fibElem0 = 0 ;
-  var fibElem1 = 1 ;
-  var fibElemNm1 = fibElem1;
-  var fibElemNm2 = fibElem0;
-  var fibElemN ;
-  
-  if( nElem === 0 ){
-    console.log((nElem+1) + ' wyraz ciągu,o indeksie ' + nElem +' =  ' + fibElem0);
-  return fibElem0 ;
-  }
-  if( nElem === 1 ){
-    console.log((nElem+1) + ' wyraz ciągu,o indeksie ' + nElem +' =  ' + fibElem1);
-  return fibElem1 ;
-  }
-  
-  if( nElem > 1 ){
-    console.log('Szukam ' + nElem + ' elementu ciągu Fibonaccieego \n') ;
-    for(var i=2 ; i <nElem ; i++){
-              console.log( 'Liczę ' + (i+1) + ' wyraz ciągu, ' + 'o indeksie ' + i + '.');
-              console.log('--- '+((i - 2)+1) + ' wyraz ciągu, o indeksie ' + (i - 2)+ ' = ' + fibElemNm2) ;
-              console.log('--- '+((i - 1)+1) + ' wyraz ciągu, o indeksie ' + (i - 1)+ ' = ' + fibElemNm1) ;
-              console.log((i+1) + ' wyraz ciągu, ' + 'o indeksie ' + i + ' = ' 
-                  + ((i - 2)+1) + ' wyraz ciągu, o indeksie ' + (i - 2)
-                  + ((i - 1)+1) + ' wyraz ciągu, o indeksie ' + (i - 1)) ;
-          
-              console.log((i+1) + ' wyraz ciągu, ' + 'o indeksie ' + i + ' = ' + fibElemNm1 + ' + ' + fibElemNm2) ;
-        fibElemN = fibElemNm1 + fibElemNm2 ;
-         
-              console.log('--------> '+(i+1) + ' wyraz ciągu, ' + 'o indeksie ' + i + ' = ' + fibElemN +'\n');
-        fibElemNm2 = fibElemNm1 ;
-        fibElemNm1 = fibElemN ;
-     
-    } 
-  return fibElemN ;
-  }
-  
+//function obliczElement(n) {
+//    /*  pobranie parametru funkcji */
+//    var elemN = n;
+//    
+//    /* zdefiniowenie dwóch pierwszych elementów ciągu */
+//    var elem1 = 0;
+//    var elem2 = 1;
+//    
+//    /* zmienna do obliczenia kolejnego elementu ciągu*/
+//    var elemK = 0;
+//    
+//    /* obliczenie elementu ciągu*/
+//    if (elemN==1) {
+//      console.log("1 element ciągu Fibonnaciego wynosi: " + elem1);
+//      return elem1;
+//
+//   } else if (elemN==2) {
+//      console.log("2 element ciągu Fibonnaciego wynosi: " + elem2);
+//      return elem2;
+//
+//   } else 
+//    /* pętla wyliczająca kolejne elementy*/
+//      for (var i = 1; i < elemN; i++) {
+//      elemK = elem2 + elem1;
+//      elem1 = elem2;
+//      elem2 = elemK;
+//      }
+//      
+//    /* wyswietlenie wyniku w konsoli */
+//    console.log( n + " element ciągu Fibonnaciego wynosi: " + elemK );
+//  
+//    /* zwrócenie wyniku*/
+//        return elemK;
+//}
+//
+//obliczElement(10);
+
+
+
+
+//function fibonacci(n){
+//    if (n===0){
+//        return 0;
+//    }
+//    if (n<=2){
+//        return 1;
+//    }
+//    return fibonacci(n-1)+ fibonacci(n-2);
+//}
+//
+//
+//console.log(fibonacci(0));
+
+
+
+
+
+
+
+function fibonacci(n) {
+    if (n == 1) {
+        return 0;
+    }
+    if (n == 2) {
+        return 1;
+    }
+var fibPrev = 0;
+var fibNext = 1;
+var fibCurrent = 0;
+    
+    
+    
+    
+    
+    for(var i = 2; i <= n; i++){
+        fibCurrent = fibPrev + fibNext;
+        fibPrev = fibNext;
+        fibNext = fibCurrent;
+    }
+      return fibCurrent;  
 }
 
-var fibElem0 = Fibonaccie(0); console.log('Szukany wyraz ciągu to : ' + fibElem0 );
-var fibElem1 = Fibonaccie(1); console.log('Szukany wyraz ciągu to : ' + fibElem1 );
-var fibElem8 = Fibonaccie(13); console.log('Szukany wyraz ciągu to : ' + fibElem8 );
+console.log (fibonacci(5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
